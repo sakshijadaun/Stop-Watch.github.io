@@ -47,6 +47,8 @@ function reset() {
     isStop = true; 
     sec = 0; 
     min=0;
+    hour=0;
+    stopwatch.innerHTML = "00 : 00 : 00";
 }
 
 
